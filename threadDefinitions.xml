@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loggerConfiguration xmlns="http://satechnologies.com/logger/config">
+	<loggerThread name="thread1">
+		<timingMinDelay>1</timingMinDelay>
+		<timingMaxDelay>2</timingMaxDelay>
+		<message>This is thread #1's message</message>
+	</loggerThread>
+	<loggerThread name="thread2">
+		<timingMinDelay>2</timingMinDelay>
+		<timingMaxDelay>4</timingMaxDelay>
+		<message>This is thread #2's message</message>
+	</loggerThread>
+	<loggerThread name="thread3">
+		<timingMinDelay>10</timingMinDelay>
+		<timingMaxDelay>20</timingMaxDelay>
+		<message>This is thread #3's message</message>
+	</loggerThread>
+	<loggerThread name="thread4">
+		<timingMinDelay>5</timingMinDelay>
+		<timingMaxDelay>10</timingMaxDelay>
+		<message>This is thread #4's message</message>
+	</loggerThread>
+	<loggerThread name="thread5">
+		<timingMinDelay>1</timingMinDelay>
+		<timingMaxDelay>3</timingMaxDelay>
+		<message>This is thread #5's message</message>
+	</loggerThread>
+	<loggerThread name="thread6">
+		<timingMinDelay>1</timingMinDelay>
+		<timingMaxDelay>7</timingMaxDelay>
+		<message>This is thread #6's message</message>
+	</loggerThread>
+	<loggerThread name="thread7">
+		<timingMinDelay>5</timingMinDelay>
+		<timingMaxDelay>9</timingMaxDelay>
+		<message>This is thread #7's message</message>
+	</loggerThread>
+	<loggerThread name="thread8">
+		<timingMinDelay>2</timingMinDelay>
+		<timingMaxDelay>6</timingMaxDelay>
+		<message>This is thread #8's message</message>
+	</loggerThread>
+	<loggerThread name="thread9">
+		<timingMinDelay>1</timingMinDelay>
+		<timingMaxDelay>5</timingMaxDelay>
+		<message>This is thread #9's message</message>
+	</loggerThread>
+</loggerConfiguration>
